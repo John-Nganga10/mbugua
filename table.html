@@ -1,0 +1,107 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="icon" href="meza.png">
+    <title>Lists and tables</title>
+    <style>
+        body{
+            background-image: url("assets/pexel.jpeg");
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        table,th,td{
+            border: 1px solid black;
+            border-collapse: collapse;
+        }
+        table{
+            width:100% ;
+            length: 400px;
+        }
+        td{
+            padding-top: 15px;
+            padding-left: 20px;
+            padding-bottom: 10px;
+        }
+        th{
+            padding-bottom: 10px;
+            padding-top: 15px;
+            padding-left:20px;
+        }
+        h1{
+            color: darkkhaki;
+            background-color: forestgreen;
+            text-align: center;
+            line-height: 85px;
+        }
+        h1:hover{
+            background-color: orangered;
+        }
+        img{
+            width: 400px;
+            height: 350px;
+        }
+    </style>
+    <a href="list.html">list</a></br>
+    <img src="assets/ocean.jpeg" alt="">
+</head>
+<h1>LISTS</h1></br>
+<body>
+<!------Nested list------->
+<ol type="I">
+    <li>List item 1
+        <ol type="a">
+            <li>Nested item 1.1</li>
+            <li>Nested item 1.2</li>
+        </ol>
+    </li>
+    <li>List item 2
+        <ol>
+            <li>Nested item 2.1</li>
+            <li>Nested item 2.2
+                <ul style=" list-style-type: circle">
+                    <li>Nested item 2.2.1</li>
+                    <li>Nested item 2.2.2
+                        <ul>
+                            <li>Nested item 2.2.2.1</li>
+                            <li>Nested item 2.2.2.2</li>
+                        </ul>
+                    </li>
+                    <li>Nested item 2.2.3</li>
+                </ul>
+            </li>
+        </ol>
+    </li>
+    <li>List item 3
+        <ul style="list-style-type: disc">
+            <li>Nested item</li>
+            <li>Nested item</li>
+            <li>Nested item</li>
+        </ul>
+    </li>
+</ol>
+<table>
+    <tr>
+        <th>Name</th>
+        <th>Location</th>
+        <th>Phone no</th>
+        <th>Age</th>
+    </tr>
+    <tr>
+        <td>Collins Peter</td>
+        <td>Juja</td>
+        <td>0734656278</td>
+        <td>19</td>
+    </tr>
+    <tr>
+        <td>Judy Alice</td>
+        <td>Kasarani</td>
+        <td>0773432789</td>
+        <td>20</td>
+    </tr>
+</table>
+</body>
+</html>

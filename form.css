@@ -1,0 +1,51 @@
+legend{
+    text-align: center;
+    font-weight: bold;
+}
+form{
+    background-color: aqua;
+    width: 45%;
+    margin: auto;
+    padding: 25px;
+}
+input[type=text],input[type=date]{
+    width: 40%;
+    border-radius: 5px;
+    margin-top: 10px;
+    padding-left: 50px;
+}
+button[type=submit]{
+    width: 80px;
+    height: 40px;
+    border-radius: 5px;
+    background-color: purple;
+    margin-left: 200px;
+}
+button[type=reset]{
+    width: 80px;
+    height: 40px;
+    border-radius: 5px;
+    background-color: olivedrab;
+
+}
+textarea{
+    border-radius: 5px;
+}
+input[type=radio]{
+    margin-left: 100px;
+}
+#projectname{
+    margin-left: 50px;
+}
+#assignedto{
+    margin-left: 65px;
+}
+#startdate{
+    margin-left: 75px;
+}
+#enddate{
+    margin-left: 85px;
+}
+#project{
+    margin-left: 65px;
+}

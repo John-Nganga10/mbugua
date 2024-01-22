@@ -1,0 +1,14 @@
+#man{
+    display: flex;
+}
+.one{
+display: grid;
+    margin-bottom: 20px;
+}
+img{
+    height: 150px;
+    width: 200px;
+}
+p{
+    margin-left: 30px;
+}

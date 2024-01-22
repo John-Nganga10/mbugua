@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Project Management</title>
+    <link rel="stylesheet" href="form.css">
+</head>
+ <legend> <u>Project Management</u> </legend>
+<br>
+<body>
+<form action="">
+    <label for="projectname">Project Name</label>
+    <input type="text" id="projectname" placeholder="project name" required="required">
+    <br><br>
+    <label for="assignedto"> Assigned To</label>
+    <select name="" id="assignedto">
+        <option value="choose" disabled="disabled">--person incharge--</option>
+        <option value="choose">James Njenga</option>
+        <option value="choose">Nancy Njoki</option>
+    </select>
+    <br><br>
+    <label for="startdate">Start Date</label>
+    <input type="date" id="startdate">
+    <br><br>
+    <label for="enddate">End Date</label>
+    <input type="date" id="enddate">
+    <br><br>
+
+    <br><br>
+    <label for="project">Description</label>
+    <textarea name="" id="project" cols="30" rows="2"></textarea>
+    <br><br>
+    <button type="submit">Submit</button>
+    <button type="reset">Clear</button>
+</form>
+</body>
+</html>
